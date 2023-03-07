@@ -2,6 +2,7 @@ package com.borispuhacin.imagesearcher.di
 
 import com.borispuhacin.imagesearcher.network.api.UnsplashApi
 import com.borispuhacin.imagesearcher.repository.UnsplashRepository
+import com.borispuhacin.imagesearcher.utils.Constants
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
@@ -24,7 +25,7 @@ object AppModule {
                 Moshi.Builder()
                     .add(KotlinJsonAdapterFactory()).build()
             ))
-            .baseUrl(UnsplashApi.BASE_URL)
+            .baseUrl(Constants.BASE_URL)
             .build()
             .create(UnsplashApi::class.java)
 
