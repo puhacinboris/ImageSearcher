@@ -1,7 +1,7 @@
 # Image Searcher - Native Android app
  
 Image Searcher allows users to search and save images found on unsplash.com using unsplash API.<br><br>
-Application follows Google’s best practices for building android apps using fragments, navigation component, retorfit2, Kotlin Coroutines, dependency injection, MVVM architecture...<br><br>
+Application follows Google’s practices for building android apps using fragments, navigation component, retorfit2, Kotlin Coroutines, dependency injection, MVVM architecture...<br><br>
 While the app is free to use it requires an unsplash API key which can be obtained by registering unsplash.com.<br><br>
 Inside file gradle.properties on line 24 enter API key.<br><br>
 By default, app starts with pictures of android, but this can be changed inside Constants file.<br><br>
