@@ -18,7 +18,7 @@ const val DEFAULT_QUERY = "android"
 
 <br>
 
-Many thanks to Florian and his [channel](https://www.youtube.com/@codinginflow) for guidelines and passed knowledge.
+Many thanks to Florian Walther and his [channel](https://www.youtube.com/@codinginflow) for guidelines and passed knowledge.
 #### Built with:
 
 ![Kotlin][kotlinRef] ![Android Studio][aStudioRef] ![XML][xmlRef]
